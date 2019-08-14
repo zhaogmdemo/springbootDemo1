@@ -68,7 +68,13 @@ public class UserServiceImpl implements UserService {
 		// TODO Auto-generated method stub
 		return null;
 	}
-
+	public User selectAccounts(String accounts) {
+		User list=dao.selectAccounts(accounts);
+		if(list!=null){
+			return list;
+		}
+		return null;
+	}
 	}
 	
 		

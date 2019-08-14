@@ -114,7 +114,7 @@ input {
                 <table cellspacing="10">
                     <tbody><tr>
                         <td colspan="2">
-                            <a href="http://localhost:8080/SpringBootVideo/jsp/uservideoshow.jsp">
+                            <a href="http://localhost:8080/SpringBootVideo/userVideoShow">
                                 <img src="./images/html5.jpg" alt="" class="image scale" draggable="false">
                                 <div class="headline">
                                     <span>Web前端教程</span>
@@ -124,7 +124,7 @@ input {
                         </td>
                         <td>
                             <!--上线时修改id-->
-                            <a  href="http://localhost:8080/SpringBootVideo/jsp/uservideoshow.jsp">
+                            <a  href="http://localhost:8080/SpringBootVideo/userVideoShow">
                                 <img src="./images/ui.jpg" alt="" class="image scale" draggable="false">
                                 <div class="headline">
                                     <span>UI设计教程</span>
@@ -153,7 +153,7 @@ input {
                             </a>
                         </td>
                         <td colspan="2">
-                            <a  href="http://localhost:8080/SpringBootVideo/jsp/uservideoshow.jsp">
+                            <a  href="http://localhost:8080/SpringBootVideo/userVideoShow">
                                 <img src="./images/python.jpg" alt="" class="image scale" draggable="false">
                                 <div class="headline">
                                     <span>Python教程</span>
@@ -164,7 +164,7 @@ input {
                     </tr>
                     <tr>
                         <td colspan="2">
-                            <a  href="http://localhost:8080/SpringBootVideo/jsp/uservideoshow.jsp">
+                            <a  href="http://localhost:8080/SpringBootVideo/userVideoShow">
                                 <img src="./images/php.jpg" alt="" class="image scale" draggable="false">
                                 <div class="headline">
                                     <span>PHP教程</span>
@@ -347,7 +347,7 @@ function commitLogin2(){
 					
 					}else if(data.cs=="2"){
 						
-						location.href="http://localhost:8080/SpringBootVideo/jsp/index.jsp";
+						location.href="http://localhost:8080/SpringBootVideo/index";
 						
 					}
 				}

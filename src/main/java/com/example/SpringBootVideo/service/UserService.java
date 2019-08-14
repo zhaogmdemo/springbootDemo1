@@ -17,7 +17,7 @@ public interface UserService {
 
 	
 	User selectOne(int id);
-	
+	User selectAccounts(String accounts);
 	User selectName(String name);
 
 
