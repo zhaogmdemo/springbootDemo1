@@ -32,6 +32,7 @@
      <select id="selectName"  resultMap="adminMap">
          select * from admin where accounts=#{accounts}    
       </select>
+      
 	
 	
 </mapper>

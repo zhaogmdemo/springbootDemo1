@@ -14,7 +14,7 @@ public interface CourseService {
 	void delete(int id);
 
 	void update(Course course);
-	
+
 	void deleteIn(ArrayList<Integer> ids);
 
 	Course selectOne(int id);

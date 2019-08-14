@@ -17,7 +17,7 @@ public interface SpeakerService {
 	Speaker selectOne(int id);
 
 	List<Speaker> selectAll();
-
+	List<Speaker> selectAll(int page,int number);
 	List<Speaker> likeAll(Speaker speaker);
 
 	void deleteAll(int[] ids);
