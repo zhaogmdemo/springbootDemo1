@@ -9,12 +9,12 @@
 	</resultMap>
 	
 	 <insert id="add" parameterType="com.example.SpringBootVideo.model.Course" keyColumn="id" keyProperty="id" useGeneratedKeys="true">
-        insert into course(course_title,course_desc,subject_id) values(#{course_title},#{course_desc},#{subject_id})
+        insert into course(course_title,course_desc,subject_id) values(#{courseTitle},#{courseDesc},#{subjectId})
     </insert>
     
 	 <!-- 修改 -->
       <update id="update" parameterType="com.example.SpringBootVideo.model.Course" >
-        update course set course_title=#{course_title},course_desc=#{course_desc},subject_id=#{subject_id} where id=#{id}
+        update course set course_title=#{courseTitle},course_desc=#{courseDesc},subject_id=#{subjectId} where id=#{id}
       </update>
 
       <!-- 删除 -->
@@ -49,7 +49,7 @@
 	</select> 
 	
   <select id="selectHtml"  resultMap="courseMap" >
-	SELECT * from course where course.subject_id=#{subject_id}
+	SELECT * from course where course.subject_id=#{subjectId}
 	</select> 
 	<select id="selectOne"  resultMap="courseMap">
          select * from course where id=#{id}    

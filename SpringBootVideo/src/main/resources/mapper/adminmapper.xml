@@ -3,6 +3,7 @@
 <mapper namespace="com.example.SpringBootVideo.mapper.AdminDao">
  <resultMap type="com.example.SpringBootVideo.model.Admin" id="adminMap">
 		<id column="admin_id" property="adminId"/>
+		<result column="admin_is_super" property="adminIsSuper"/>
 		<result column="accounts" property="accounts"/>
 		<result column="password" property="password"/>
 		<result column="admin_remark" property="adminRemark"/> 
